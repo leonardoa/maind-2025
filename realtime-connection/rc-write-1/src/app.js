@@ -6,10 +6,10 @@ const tableName = "realtimedatabase1";
 
 document.addEventListener("mousemove", async (e) => {
   let values = { x: e.clientX, y: e.clientY };
-  updateSupabase(values, 1);
+  updateSupabase(1, values);
 });
 
-async function updateSupabase(values, id) {
+async function updateSupabase(id, values) {
   let res = await database
     .from(tableName)
     .update({
