@@ -26,10 +26,10 @@ The course aims to develop new modes of interaction through the creation or hack
 - Introduction to the topic and creation of groups
 - Software setup (VS Code, GitHub, etc.)
 - Introdcution/recap to Machine learning and Javascript
-- Personal reserach, prototyping
+- Group reserach, prototyping
 
 ### Day 2
 - Realtime connection among multiple devices
 - Code exercises
-- Personal reserach, prototyping
+- Group reserach, prototyping
 - Daily feedback and project discussion  
