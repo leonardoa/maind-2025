@@ -35,7 +35,7 @@ To enable real-time connections during this course, we will use Supabase, an ope
 
 ## How to write data to a database (js)
 - In your html you need to connect to the supabase library as well as connect our javascript.
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
