@@ -27,6 +27,5 @@ To enable real-time connections during this course, we will use Supabase, an ope
 ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/3.png?raw=true)
 - An example of the main information we will need save in our txt.
 <img src="https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/4.png?raw=true" width="500">
-![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/4.png?raw=true)
 - Once the project is created or selected click on “Databases” in the sidebar.
 ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/5.png?raw=true)
