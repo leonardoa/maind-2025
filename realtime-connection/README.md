@@ -6,8 +6,8 @@ To enable real-time connections during this course, we will use Supabase, an ope
 
 ## Topics
 - How to create a database and how to configure it
-- How to write data to a database
-- How to read data on a databse
+- How to write data to a database (js)
+- How to read data from a database (js)
 
 ## Software requirements
 - [Supabase](https://supabase.com/)
@@ -32,3 +32,17 @@ To enable real-time connections during this course, we will use Supabase, an ope
 ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/6.png?raw=true)
 - Create your fields as shown in the image. Then press the green button "Save".
 ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/7.png?raw=true)
+
+## How to write data to a database (js)
+- In your html you need to connect to the supabase library as well as connect our javascript.
+```
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="src/app.js"></script>
+</html>
+```
