@@ -1,6 +1,6 @@
 # Connected Objects
 SUPSI MAInD  
-Programming interctive objects in real time
+Programming interctive objects in realtime
 Workshop 24.2–13.3.2025
 
 # Project Brief
