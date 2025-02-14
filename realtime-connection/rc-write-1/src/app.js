@@ -13,9 +13,7 @@ async function updateSupabase(id, values) {
   let res = await database
     .from(tableName)
     .update({
-      values: {
-        values,
-      },
+      values: values,
       updated_at: new Date(),
     })
     .eq("id", id);
