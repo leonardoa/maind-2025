@@ -15,7 +15,7 @@ To enable real-time connections during this course, we will use Supabase, an ope
 
 ### How to create a database and how to configure it 
 1. Login on supabase (https://supabase.com/)
-    1.1 Username: ##
-    2.1 Password: ##
+    - Username: ##
+    - Password: ##
 2. How to create a database and how to configure it
-    2.1 
+    - 
