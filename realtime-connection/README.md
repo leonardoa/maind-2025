@@ -14,11 +14,11 @@ To enable real-time connections during this course, we will use Supabase, an ope
 - [Supabase](https://supabase.com/)
 
 # How to create a database and how to configure it 
-## 1. Login on supabase (https://supabase.com/)
+### 1. Login on supabase (https://supabase.com/)
 - Username: ***
 - Password: ***
 
-## 2. How to create a database
+### 2. How to create a database
 - Click on the all projects. Then click on new project and select SUPSI.
 ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/1.png?raw=true)
 - Enter your group name, select a password (copy it), and select region central EU. Press the green “Create new project” button.
