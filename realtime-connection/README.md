@@ -21,3 +21,11 @@ To enable real-time connections during this course, we will use Supabase, an ope
 #### 2. How to create a database
 - Click on the all projects. Then click on new project and select SUPSI.
 image ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/1.png?raw=true)
+- Enter your group name, select a password (copy it), and select region central EU. Press the green “Create new project” button.
+image ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/2.png?raw=true)
+- Copy all the information to a txt file. of this screen. Save the txt file in a safe place that you can access when needed..
+image ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/3.png?raw=true
+- An example of the main information we will need.
+image ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/4.png?raw=true
+- Once the project is created or selected click on “Databases” in the sidebar.
+image ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/5.png?raw=true
