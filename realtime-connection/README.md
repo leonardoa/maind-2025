@@ -20,4 +20,4 @@ To enable real-time connections during this course, we will use Supabase, an ope
 
 #### 2. How to create a database
 - Click on the all projects. Then click on new project and select SUPSI.
-image ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/1.png?raw=true);
+image ![supabase](https://github.com/leonardoa/maind-2025/blob/main/assets/supabase/1.png?raw=true)
