@@ -68,7 +68,7 @@ const tableName = "realtimedatabase1";
 
 ```javascript
 async function insertSupabase(id, values) {
-  let res = await database.from(tableName).insert([
+  let res = await database.from("tableName").insert([
     {
       id: id,
       values: values,
@@ -86,7 +86,7 @@ insertSupabase(id, values);
 ```javascript
 async function updateSupabase(id, values) {
   let res = await database
-    .from(tableName)
+    .from("tableName")
     .update({
       values: {
         values,
@@ -103,7 +103,7 @@ updateSupabase(id, values);
 
 ```javascript
 async function checkRowExists(id) {
-  let res = await database.from(tableName).select("*").eq("id", id);
+  let res = await database.from("tableName").select("*").eq("id", id);
   return res.data.length > 0;
 }
 
@@ -114,3 +114,32 @@ if (!isExists) {
   console.log("Row already exists");
 }
 ```
+
+- You can read the data in real time like this
+
+```javascript
+async function readSupabaseRealTime() {
+  //Listen to changes in the database
+  database
+    .channel("tableName")
+    .on(
+      "postgres_changes",
+      { event: "*", schema: "public", table: tableName },
+      (data) => {
+        //do something with the data
+      }
+    )
+    .subscribe();
+}
+```
+
+- You can read the data without opening the real time channel like this
+
+```javascript
+async function readSupabase() {
+  let { data, error } = await database.from("tableName").select("*");
+  //do something with the data
+}
+
+```
+
