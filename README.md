@@ -10,6 +10,7 @@ The course aims to develop new modes of interaction through the creation or hack
 - Machine learning 
 - Realtime connection among multiple devices
 - Sensors 
+- Image generation (replicate) 
 - Serial communication 
 - Host website on Github
 
