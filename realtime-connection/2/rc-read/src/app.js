@@ -46,6 +46,8 @@ async function readSupabase() {
 }
 
 async function draw(data) {
+
+  //data from realtime database and from the normal query is different so we unify it
   if (data.new) {
     data = data.new;
   }
