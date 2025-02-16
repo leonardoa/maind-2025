@@ -1,6 +1,7 @@
 # Connected Objects
 SUPSI MAInD
-Programming interactive objects for real-time engagement in museum or gallery settings__
+Programming interactive objects for real-time engagement in museum or gallery settings
+##
 Workshop 24.2–13.3.2025
 
 # Project Brief
