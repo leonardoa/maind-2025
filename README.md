@@ -1,6 +1,6 @@
 # Connected Objects
-SUPSI MAInD  
-Programming interctive objects in realtime
+SUPSI MAInD
+Programming interactive objects for real-time engagement in museum or gallery settings__
 Workshop 24.2–13.3.2025
 
 # Project Brief
