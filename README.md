@@ -19,18 +19,3 @@ The course aims to develop new modes of interaction through the creation or hack
 - [Live Server for VS Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (install as VS Code plugin)
 - [GitHub Desktop](https://desktop.github.com)
 
-
-# Workshop organization
-
-### Day 1  
-- Connected Objects: assignment and start of the week  
-- Introduction to the topic and creation of groups
-- Software setup (VS Code, GitHub, etc.)
-- Introdcution/recap to Machine learning and Javascript
-- Group reserach, prototyping
-
-### Day 2
-- Realtime connection among multiple devices
-- Code exercises
-- Group reserach, prototyping
-- Daily feedback and project discussion  
