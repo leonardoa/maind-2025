@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
           compassImage.style.transform = `rotate(${-alpha}deg)`;
           // Get the cardinal direction
           const cardinalDirection = getCardinalDirection(alpha);
-          compassData.innerHTML = `Magnetic Heading: ${alpha.toFixed(2)}° ->${cardinalDirection}`;
+          compassData.innerHTML = ``;
       }
   }
 
