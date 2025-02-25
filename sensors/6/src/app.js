@@ -5,17 +5,26 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to determine cardinal direction
   function getCardinalDirection(angle) {
       const directions = ['North', 'North-East', 'East', 'South-East', 'South', 'South-West', 'West', 'North-West'];
-      return directions[Math.round(((angle %= 360) < 0 ? angle + 360 : angle) / 45) % 8];
+      angle += 22.5; // Adjust so the split between directions is centered on the cardinal direction
+      if (angle < 0) angle += 360;
+      angle %= 360;
+      return directions[Math.floor(angle / 45)];
   }
+
+  // Adjust the alpha angle for magnetic declination
+  const magneticDeclination = 0; // Set your location's magnetic declination in degrees here
 
   function updateCompass(event) {
       if (event.alpha !== null) {
-          const alpha = event.alpha;
+          let alpha = event.alpha;
+          alpha += magneticDeclination; // Adjust compass reading by adding the magnetic declination
+
           // Rotate the compass needle
           compassImage.style.transform = `rotate(${-alpha}deg)`;
+
           // Get the cardinal direction
           const cardinalDirection = getCardinalDirection(alpha);
-          compassData.innerHTML = `Magnetic Heading: ${alpha.toFixed(2)}° ->${cardinalDirection}`;
+          compassData.innerHTML = `Magnetic Heading: ${alpha.toFixed(2)}° ${cardinalDirection}`;
       }
   }
 
