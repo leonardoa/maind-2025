@@ -10,7 +10,7 @@ function draw(predictions) {
 
     let hand = predictions.filter((item) => item.label === "open");
 
-    if(hand.length >= 2){
+    if(hand.length >= 3){
       video.play();
     }
     else {

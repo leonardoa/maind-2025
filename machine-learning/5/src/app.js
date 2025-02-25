@@ -1,4 +1,4 @@
-let numOfImages = 10;
+let numOfImages = 7;
 
 function draw(predictions) {
   let widthCanvas = document.getElementById("canvas").width;
@@ -6,7 +6,7 @@ function draw(predictions) {
   let heightWindow = window.innerHeight;
 
   //img
-  let img = document.querySelector("#img");
+  let img = document.querySelector("#pizza");
 
   //divide the screen
   let screenSection = heightWindow / numOfImages;
@@ -20,7 +20,7 @@ function draw(predictions) {
       let yCloseMap = mapRange(yClose, 0, heightCanvas, 0, heightWindow);
       const sectionNumber = findImageSection(yCloseMap, screenSection);
       img.src = `src/img/${sectionNumber}.png`;
-      img.style.transform = `scale(${sectionNumber / 2})`;
+      // img.style.transform = `scale(${sectionNumber / 2})`;
     }
   }
 }

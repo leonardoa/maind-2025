@@ -1,6 +1,5 @@
 function draw(predictions) {
   let num = predictions.length
-  document.querySelector("#emotion").innerHTML = num;
-  document.querySelector("#emotion").style.display = "block";
-
+  document.querySelector("#num").innerHTML = num;
+  document.querySelector("#num").style.display = "block";
 }
