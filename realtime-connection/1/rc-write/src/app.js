@@ -39,7 +39,7 @@ async function checkRowExists(id) {
 }
 
 setTimeout(async () => {
-  let id = 10;
+  let id = 22;
   let values = { x: 0, y: 0 };
   let isExists = await checkRowExists(id);
   if (!isExists) {
