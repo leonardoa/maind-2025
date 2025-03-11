@@ -2,8 +2,8 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "DenWIFI";            // Sostituisci con il nome della tua rete WiFi
-const char* password = "Pass4Travel?!";  // Sostituisci con la password della tua rete WiFi
+const char* ssid = "0x000";            // Sostituisci con il nome della tua rete WiFi
+const char* password = "leoleoleo";  // Sostituisci con la password della tua rete WiFi
 
 // Supabase credentials
 #define supabaseUrl "https://witttxltipffmepbutsg.supabase.co"
@@ -72,9 +72,9 @@ void sendData() {
 
  
   if (httpResponseCode > 0) {
-    //Serial.print("HTTP Response Code: ");
-    //Serial.println(httpResponseCode);
-    //Serial.println("Response: " + response);
+    Serial.print("HTTP Response Code: ");
+    Serial.println(httpResponseCode);
+    Serial.println("Response: " + response);
   } else {
     Serial.print("Error in sending PATCH request: ");
     Serial.println(http.errorToString(httpResponseCode));
